@@ -1,0 +1,21 @@
+main{
+  display: flex;
+  --gap-main: 1rem;
+  gap: var(--gap-main);
+  flex-wrap: wrap;
+  & img{
+    object-fit: cover;
+  }
+  @media (width >= 80em){
+    --gap-main: 1.5rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    & img{
+
+      object-fit: cover;
+    }
+    
+  }
+}
+
