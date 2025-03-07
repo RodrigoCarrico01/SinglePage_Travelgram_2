@@ -19,7 +19,7 @@ header{
       margin-bottom: 0.5rem;
     }
     & p{
-      max-width: 89%;
+      max-width: 85%;
     }
   }
   #info{
@@ -30,7 +30,7 @@ header{
       gap: 0.5rem;
     }
   }
-  @media (width >= 80em){
+  @media (width >= 70em){
     & .container{
       flex-direction: row;
       align-items: center;

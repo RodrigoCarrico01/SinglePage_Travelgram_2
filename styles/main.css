@@ -6,7 +6,7 @@ main{
   & img{
     object-fit: cover;
   }
-  @media (width >= 80em){
+  @media (width >= 70em){
     --gap-main: 1.5rem;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
