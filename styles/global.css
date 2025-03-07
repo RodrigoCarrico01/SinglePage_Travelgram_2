@@ -48,7 +48,7 @@ body{
 }
 h1{
   color: var(--text-color-primary);
-  font-size: var(--fs-lg) ;
+  font-size: var(--fs-lg);
 }
 
 a {
@@ -58,4 +58,10 @@ a {
 a:hover {
   color: var(--brand-color);
   text-decoration: underline;
+}
+
+@media (width <= 24em) {
+  :root{
+    --fs-lg: 5rem;
+  }
 }
