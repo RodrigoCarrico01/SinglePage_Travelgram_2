@@ -43,6 +43,9 @@ header{
         width: 11rem;
         height: 11rem;
       }
+      & p{
+        max-width: 100%;
+      }
     }
     & #info{
       width: 17.5rem;
