@@ -1,0 +1,61 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+*{
+  margin: 0;  
+  padding: 0;
+  font: inherit;
+
+}
+
+:root{
+  /*PALETE*/
+  --brand-color:#EF5F4C;
+
+  --bg-color: #FFFFFF;
+  --surface-color: #F5F5F5;
+  --skeleton-color: #D9D9D9;
+  --shape-transparency: #ffffff8f;
+
+  --text-color-primary: #313131;
+  --text-color-secondary: #6C6C6C;
+
+  /*TIPOGRAFIA*/
+  --ff-sans: "Poppins", serif;
+
+  --fs-lg: 2rem;
+  --fs-md: .875rem;
+  --fs-sm: .75rem;
+
+  --fw-regular: 400;
+  --fw-bold: 700;
+}
+
+html{
+  font-family: var(--ff-sans);
+  font-weight: var(--fw-regular);
+  font-size: var(--fs-md);
+  color: var(--text-color-secondary);
+  line-height: 1.7;
+  overflow-x: hidden;
+}
+body{
+  background-color: var(--bg-color);
+  overflow-x: hidden;
+}
+h1{
+  color: var(--text-color-primary);
+  font-size: var(--fs-lg) ;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+a:hover {
+  color: var(--brand-color);
+  text-decoration: underline;
+}
